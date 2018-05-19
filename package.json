@@ -1,0 +1,24 @@
+{
+  "name": "effectivetype",
+  "version": "0.0.1",
+  "description": "A react component to allow loading children conditionally based on the the browser's connection speed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.3.2"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "babel": {
+    "presets": ["es2015", "react", "stage-2"],
+    "plugins": [
+      ["emotion", {"inline": true}],
+      "inline-import-data-uri"
+    ]
+  }
+}
